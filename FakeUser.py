@@ -16,7 +16,7 @@ async def on_message(message):
     #replace user discriminator below as a string
     discriminator = 'USER DISCRIMINATOR'
     message_author = message.author
-    #The programonly works for small discord servers in which everyone has a distinct discriminator
+    #The program only works for small discord servers in which everyone has a distinct discriminator
 
     #end the function if the users do not match
     if message_author.discriminator != discriminator:
