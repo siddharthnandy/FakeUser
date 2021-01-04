@@ -27,5 +27,5 @@ async def on_message(message):
     await ctx.channel.purge(limit = 1)
     await ctx.send(text)
 
-#replace bot discriminator below as a string
+#replace bot token below as a string
 client.run('BOT TOKEN')
